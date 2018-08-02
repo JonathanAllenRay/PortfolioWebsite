@@ -1,0 +1,93 @@
+ul.top {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #939393;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li.top {
+    float: left;
+}
+
+li a.top {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-family: Verdana;
+}
+
+li a.active {
+    background-color: #49b26c;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #49b26c;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+h1 {
+    text-align: center;
+    font-family: Verdana;   
+    color: #494949;
+    margin-top: 80px;
+}
+
+h2 {
+    text-align: center;
+    font-family: Verdana;   
+    color: #494949;
+}
+
+div {
+    background-color: #939393;
+    margin: 50px;
+    padding: 25px;
+}
+
+p {
+    font-family: Verdana;
+    color: white;
+    font-size: 135%;
+}
+
+p.units {
+    font-size: 160%;
+}
+
+
+
+ul.units {
+    color: white;
+}
+
+li.units {
+    color: white;
+    float: none;
+    font-size: 125%;
+    font-family: Verdana;
+}
+
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+}
+
+a:visited {
+    color: white;
+}
+
+a {
+    color: white;
+}
